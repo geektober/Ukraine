@@ -211,7 +211,7 @@ LeftSideText:TweenPosition(UDim2.new(0, 0, 0.25, 0), Enum.EasingDirection.Out, E
 task.wait(1)
 RightSideText:TweenPosition(UDim2.new(0, 0, 0.25, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
 
-task.wait(1)
+task.wait(2)
 
 LeftSideText:TweenPosition(OriginalPositions[1], Enum.EasingDirection.Out, Enum.EasingStyle.Quint, 1)
 task.wait(1)
